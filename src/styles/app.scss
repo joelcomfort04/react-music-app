@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: rgb(247, 239, 239);
+}
+body {
+  font-family: "Lato", sans-serif;
+  //background-color: #ffb997;
+  background-color: #498dbb;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(247, 239, 239);
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
