@@ -13,12 +13,21 @@ nav {
     transition: all 0.3s ease;
     border-radius: 15%;
     &:hover {
-      background: #1365c2;
-      border-color: #ffb997;
+      background: white;
+      border-color: white;
+      color: #498dbb;
     }
     &:focus {
       outline: none;
       box-shadow: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      z-index: 10;
     }
   }
 }
