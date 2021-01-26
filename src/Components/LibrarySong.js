@@ -8,7 +8,7 @@ const LibrarySong = ({
   setSongs,
 }) => {
   const songSelectHandler = async () => {
-    const selectedSong = songs.filter((state) => state.id === id);
+    //const selectedSong = songs.filter((state) => state.id === id);
     await setCurrentSong(song);
     // active state
     const newSongs = songs.map((song) => {
